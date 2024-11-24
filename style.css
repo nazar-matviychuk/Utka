@@ -1,0 +1,73 @@
+.photo {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Frivnefish.com%2Fplaces%2F668%2Futka&psig=AOvVaw3y3ELg75up2uSQZwJfjq97&ust=1732459152530000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiu867Y8okDFQAAAAAdAAAAABAJ");
+}
+
+.centr {
+    text-align: center;
+}
+
+.size-p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.size-h1 {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centrlphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div1 {
+    background-image: url("C:\Users\gigab\Desktop\fishing in Utka\bg.jpg");
+}
+
+body {
+    background-color: rgb(175, 175, 175);
+}
+
+.centr1 {
+    background-color: rgb(228, 228, 228);
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    margin: 4px 2px;
+    text-decoration: none;
+    padding: 15px 32px;
+}
+
+.size-ph {
+    width: 30%;
+}
+
+.size-h2 {
+    font-size: 50px;
+}
+
+.a-but {
+    background-color: beige;
+}
+
+.centra {
+    align-items: center;
+    font-size: 20px;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: green;
+    color: white;
+  }
