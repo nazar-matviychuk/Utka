@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head class="shrift">
         <title>Утка</title>
     </head>
     <header>
@@ -10,10 +10,24 @@
         </div>
     </header>
     <body>
-        <img class="centrlphoto" src="\images\utka.jpg">
+        <div class="container">
+            <div class="column">
+                <img class="centrlphoto clickable" src="\images\utka.jpg">
+            </div>
+        </div>
+
         <p class="centr size-p" >Сайт про Утку від фаната риболовлі</p>
         <a class="centra" href="haractr.html">Характеристика</a>
         <a class="centra" href="fauna.html">Фауна</a>
         <a class="centra" href="gallery.html">Фото Галерея</a>
+
+
+        <div id="modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg">
+        </div>
+        
+          <!-- Підключення JavaScript -->
+          <script src="script.js"></script>
     </body>
 </html>
